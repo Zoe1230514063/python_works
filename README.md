@@ -36,16 +36,10 @@
 
 cd works-server
 
-pip install -r requirements.txt
-
-python manage.py migrate
-
 python manage.py runserver 8000
 
 后端运行：
 
 cd works-web
-
-npm install
 
 npm run dev
